@@ -6,7 +6,10 @@
 	#head {
 		font-size: 40px;
 	}
-
+	
+	table {
+		border: 2px solid;
+	}
 </style>
 </head>
 <body>
@@ -18,8 +21,13 @@ Qual o tipo de consumo da galera?<br>
 <input type="radio" name="tipoDeConsumo" id="tipo1" checked>Baixo</input>
 <input type="radio" name="tipoDeConsumo" id="tipo2">Moderado</input>
 <input type="radio" name="tipoDeConsumo" id="tipo3">Que porra é essa?</input><br><br>
-<input type="button" value="recalcula!" onclick="update()"></input>
+<input type="button" value="Recalcula!" onclick="update()"></input>
 
 <div id="exitTable"></div>
+<table>
+<tr><td>hehe</td><td>Carne</td><td>Cerveja</td><td>Total</td></tr>
+<tr><td>Quantidade</td><td>12kg</td><td>12l</td><td></td></tr>
+<tr><td>Custo</td><td>R$70</td><td>R$60</td></tr>
+</table>
 </body>
 </html>
